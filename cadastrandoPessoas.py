@@ -4,7 +4,7 @@ while True:
     terminar = input('Deseja cadastrar uma pessoa? [S/N]: ')
     if terminar.upper() in 'N':
         break
-    if terminar .upper() not in 'S':
+    if terminar.upper() not in 'S':
         print('Digite S para Sim e N para Não')
         continue
 
